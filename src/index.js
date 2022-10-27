@@ -10,6 +10,7 @@ import {
 import Root from './routes/root'
 import Error from './pages/error'
 import Test from './pages/test';
+import Draggable from './pages/draggable';
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: 'test',
         element: <Test />
+      },
+      {
+        path: 'draggable',
+        element: <Draggable />
       }
     ]
   },
