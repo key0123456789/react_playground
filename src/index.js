@@ -10,6 +10,7 @@ import {
 import Root from './routes/root'
 import Error from './pages/error'
 import Test from './pages/test';
+import Style from './pages/style'
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: 'test',
         element: <Test />
+      },
+      {
+        path: 'style',
+        element: <Style />
       }
     ]
   },

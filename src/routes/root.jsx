@@ -33,6 +33,9 @@ export default function Root() {
             <li>
               <a href={`test`}>テストページへ</a>
             </li>
+            <li>
+              <a href={`style`}>スタイル指定</a>
+            </li>
           </ul>
         </nav>
       </div>
