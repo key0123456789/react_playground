@@ -1,4 +1,6 @@
 import { Outlet } from 'react-router-dom'
+import { ThemeProvider } from "styled-components";
+import { theme } from "../utils/theme";
 
 export default function Root() {
   return (
@@ -40,7 +42,9 @@ export default function Root() {
         </nav>
       </div>
       <div id="detail">
-        <Outlet />
+        <ThemeProvider theme={theme}>
+          <Outlet />
+        </ThemeProvider>
       </div>
     </>
   );

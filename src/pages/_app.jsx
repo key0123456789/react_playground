@@ -1,9 +1,12 @@
-function App() {
-  return (
-    <div className="App">
-      テスト
-    </div>
-  );
-}
+// import { ThemeProvider } from "styled-components";
+// import { theme } from "../utils/theme";
 
-export default App;
+// const App = ({Component, pageProps}) => {
+//   return (
+//     <ThemeProvider theme={theme}>
+//       <Component {...pageProps}></Component>
+//     </ThemeProvider>
+//   );
+// }
+
+// export default App;
